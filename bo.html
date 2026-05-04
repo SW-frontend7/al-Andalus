@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>معرض للستائر و الركن و الصالونات و السفر"</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Cairo:wght@200..1000&family=Noto+Kufi+Arabic:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.rtl.min.css"
+      integrity="sha384-CfCrinSRH2IR6a4e6fy2q6ioOX7O6Mtm1L9vRvFZ1trBncWmMePhzvafv7oIcWiW"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="bs/style.css" />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top"
+    >
+      <div class="container">
+        <!-- اللوجو واسم المعرض -->
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img src="images/New folder/download.png" alt="اللوجو" width="40" class="ms-2" />
+        </a>
+
+        <!-- زر الموبايل -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#nav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- الروابط -->
+        <div class="collapse navbar-collapse" id="nav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="bo.html">الرئيسية</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="details.html"> التصنيفات</a>
+            </li>
+          </ul>
+          <div class="d-flex">
+            <a href="#contact" class="main-btn">تواصل معنا</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- القسم الرئيسي -->
+
+    <!-- START: full interactive slider (paste after your navbar) -->
+    <div class="slider-container">
+      <div class="slider">
+        <div class="slide active transition-fade">
+          <img src="bs/images/pd.jpg" alt="Slider Image 1" />
+          <div class="slide-content">
+            <h2 class="slide-title">جلسة بتجمع بين الراحة والفخامة</h2>
+            <p class="slide-description">
+              "ركن الأندلس بيجمع بين الفخامة والراحة، وبيخلي بيتك يحكي عن ذوقك.
+            </p>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="bs/images/pd2.jpg" alt="Slider Image 4" />
+          <div class="slide-content">
+            <h2 class="slide-title">معرض الأندلس… مش مجرد أثاث</h2>
+            <p class="slide-description">
+              ده أسلوب حياة بيجمع بين الذوق والفخامة.
+            </p>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="bs/images/pd3.jpg" alt="Slider Image 4" />
+          <div class="slide-content">
+            <h2 class="slide-title">جلسة ولا أروع أناقة في كل زاوية</h2>
+            <p class="slide-description">ركن يغير مودك… ويضيف لمسة دفء لبيتك</p>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="bs/images/pd4.jpg" alt="Slider Image 4" />
+          <div class="slide-content">
+            <h2 class="slide-title">أرقى التصاميم تحت سقف واحد</h2>
+            <p class="slide-description">ركن يغير مودك… ويضيف لمسة دفء لبيتك</p>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="bs/images/pd5.jpg" alt="Slider Image 4" />
+          <div class="slide-content">
+            <h2 class="slide-title">الراحة تبدأ من هنا ركنك عالمك الخاص</h2>
+            <p class="slide-description">
+              جلسة ملوكية تفاصيلها بتكمل جمال بيتك
+            </p>
+          </div>
+        </div>
+
+        <div class="navigation">
+          <button class="nav-btn prev">&lt;</button>
+          <button class="nav-btn next">&gt;</button>
+        </div>
+
+        <div class="dots-container">
+          <!-- Dots will be added dynamically with JavaScript -->
+        </div>
+      </div>
+    </div>
+
+  
+<section class="andalus-about py-5">
+  <div class="container">
+    <div class="row align-items-center g-5 flex-lg-row-reverse">
+
+      <!-- الصورة -->
+      <div class="col-lg-6 text-center">
+        <img src="images/New folder/yo.png" 
+              class="img-fluid rounded-3 " 
+             alt="معرض الأندلس - نبذة">
+      </div>
+
+      <!-- النص -->
+      <div class="col-lg-6 text-end">
+        <h2 class="about-title mb-4">نبذة عن معرض الأندلس</h2>
+        <p class="about-text lead">
+          نسعد بزيارتكم لمعرض الأندلس للأثاث… نقدم خبرة أكثر من 
+          <strong>10 سنوات</strong> في عالم الأثاث والديكور.
+        </p>
+        <p class="about-text">
+          نقدم تشكيلات مميزة من غرف النوم والصالونات والديكورات
+          مع جودة عالية وشغل يدوي احترافي.
+        </p>
+
+        <a href="details.html" class="btn about-btn px-4 mt-3">
+         التصنيفات
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+   
+    <!-- END: full interactive slider -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="main-title text-center mb-4">
+            <h2 class="title mb-2">التصنيفات</h2>
+            <p class="description">
+              "تصفّح تصنيفاتنا المتنوعة واستمتع بتجربة تسوّق فريدة!"
+            </p>
+          </div>
+        </div>
+        <!-- كارت ستائر -->
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card-box">
+            <a class="stretched-link" href="curta.html">
+              <img src="images/ps.jpg" alt="" class="w-100 img-fluid"
+            /></a>
+            <div class="card-body text-center">
+              <h4>الستائر</h4>
+            </div>
+          </div>
+        </div>
+
+        <!-- كارت ركنات -->
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card-box">
+            <a class="stretched-link" href="sofas.html">
+              <img src="images/ps2.jpg" alt="" class="w-100 img-fluid"
+            /></a>
+            <div class="card-body text-center">
+              <h4>الركنات</h4>
+              <a href="sofas.html"></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- كارت صالونات -->
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card-box">
+            <a class="stretched-link" href="salons.html">
+              <img src="images/ps3.jpg" alt="" class="w-100 img-fluid"
+            /></a>
+            <div class="card-body text-center">
+              <h4>الصالونات</h4>
+            </div>
+          </div>
+        </div>
+
+        <!-- كارت سفرة -->
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card-box">
+            <a class="stretched-link" href="dining.html">
+              <img src="images/ps4.jpg" alt="" class="w-100 img-fluid"
+            /></a>
+            <div class="card-body text-center">
+              <h4>السفرة</h4>
+            </div>
+          </div>
+        </div>
+
+        <!-- كارت تنفيذات المعرض -->
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card-box">
+            <a class="stretched-link" href="details.html"></a>
+            <img src="images/ps1.jpg" alt="" class="w-100 img-fluid" />
+            <div class="card-body text-center">
+              <h4>تنفيذات المعرض</h4>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+    </div>
+
+    <!-- SECTION : التصميمات الفعلية -->
+    <section id="portfolio" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-4">تنفيــذات المعــرض</h2>
+
+        <div class="row g-4">
+          <div class="col-md-4 img-box">
+            <div class="card shadow">
+              <img src="images/sss.jpg" class="card-img-top" alt="تصميم فعلي" />
+              <div class="card-body">
+                <h5 class="card-title">تصميم المعرض</h5>
+                <p class="card-text">
+                  شغل متسلم لزبون – خامات عالية وجودة ممتازة.
+                </p>
+                <a href="details.html" class="btn btn-primary w-100"
+                  >شاهد التفاصيل</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 img-box">
+            <div class="card shadow">
+              <img src="images/r1.jpg" class="card-img-top" alt="تصميم فعلي" />
+              <div class="card-body">
+                <h5 class="card-title">تصميم المعرض</h5>
+                <p class="card-text">تصميم خاص بعميل – تنفيذ وتسليم.</p>
+                <a href="details.html" class="btn btn-primary w-100"
+                  >شاهد التفاصيل</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="text-white text-center">
+      
+
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div id="contact" class="contact-section">
+              <a href=""
+                ><img src="images/New folder/download.png" alt="" class="logo-img"
+              /></a>
+              <h2>تواصل معنا</h2>
+
+              <div class="contact-items">
+                <div class="item w-100">
+                  📞 رقم الهاتف : <span>+20 12 12138414</span>
+                </div>
+                <div class="item">
+                  <a href="https://www.facebook.com/share/17jHGEYJfz/" target="_blank"
+                    ><i class="fa-brands fa-facebook"></i
+                  ></a>
+                </div>
+                <div class="item">
+                  <a href="https://wa.me/+20 12 12138414" target="_blank"
+                    ><i class="fa-brands fa-whatsapp"></i
+                  ></a>
+                </div>
+                <div class="item">
+                  <a href=" https://www.instagram.com/mhmwd20293?igsh=eHprM254dm8xb2Zh" target="_blank"
+                    ><i class="fa-brands fa-instagram"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8 col-12">
+            <span class="end-text"
+              >© 2025 معرض الأندلس — لأن عملائنا غاليين علينا… جهزنا لكم تقديمات
+              مميزة تليق بذوقكم. معرض الأندلس بيقدملك أكتر من أثاث… بيقدملك
+              تجربة. #تقديمات_مميزة #معرض_الأندلس #عملاؤنا_أولاً
+              <a href="bo.html" class="text-decoration-none"> صفحة المعرض </a>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-cats">
+    <h4>التصنيفات</h4>
+    <ul>
+        <li><a href="curta.html">الستائر</a></li>
+        <li><a href="sofas.html">الركنات</a></li>
+        <li><a href="salons.html">الصالونات</a></li>
+        <li><a href="dining.html">السفرة</a></li>
+        <li><a href="details.html"> تنفيذات المعرض</a></li>
+    </ul>
+</div>
+
+
+      <div class="container">
+        <!-- محتوى الفوتر -->
+        <div class="row">
+          <div class="col">
+            <p >لينكات الصفحة – معلومات الصفحة - المحتوى</p>
+          </div>
+        </div>
+
+        <!-- حقوق الملكية -->
+        <p class="text-center mt-3 mb-0">
+          © 2025 جميع الحقوق محفوظة – تصميم وتطوير: WHEDY
+        </p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        // Select elements
+        const slider = document.querySelector(".slider");
+        const slides = document.querySelectorAll(".slide");
+        const prevBtn = document.querySelector(".prev");
+        const nextBtn = document.querySelector(".next");
+        const dotsContainer = document.querySelector(".dots-container");
+
+        // Variables
+        let currentIndex = 0;
+        let autoSlideInterval;
+        const autoSlideDelay = 5000; // 5 seconds
+
+        // Available transition effects
+        const transitionEffects = [
+          "fade",
+          "slideRight",
+          "slideLeft",
+          "zoom",
+          "slideUp",
+        ];
+
+        // Initialize - make first slide active
+        slides[0].classList.add("active");
+        slides[0].classList.add(`transition-${transitionEffects[0]}`);
+
+        // Create dot indicators
+        slides.forEach((_, index) => {
+          const dot = document.createElement("div");
+          dot.classList.add("dot");
+          if (index === 0) dot.classList.add("active");
+          dot.addEventListener("click", () => showSlide(index));
+          dotsContainer.appendChild(dot);
+        });
+
+        // Get all dots
+        const dots = document.querySelectorAll(".dot");
+
+        // Main function to show a slide
+        function showSlide(index) {
+          // Handle index boundaries
+          if (index < 0) index = slides.length - 1;
+          if (index >= slides.length) index = 0;
+
+          // Skip if already on this slide
+          if (index === currentIndex) return;
+
+          // Remove active class from all slides and dots
+          slides.forEach((slide) => {
+            slide.classList.remove("active");
+            slide.classList.remove(
+              "transition-fade",
+              "transition-slideRight",
+              "transition-slideLeft",
+              "transition-zoom",
+              "transition-slideUp"
+            );
+          });
+
+          dots.forEach((dot) => dot.classList.remove("active"));
+
+          // Apply random transition effect
+          const randomEffect =
+            transitionEffects[
+              Math.floor(Math.random() * transitionEffects.length)
+            ];
+          slides[index].classList.add(`transition-${randomEffect}`);
+
+          // Activate the new slide and dot
+          slides[index].classList.add("active");
+          dots[index].classList.add("active");
+
+          // Update the current index
+          currentIndex = index;
+
+          // Reset auto slide timer
+          resetAutoSlide();
+        }
+
+        // Next slide function
+        function nextSlide() {
+          showSlide(currentIndex + 1);
+        }
+
+        // Previous slide function
+        function prevSlide() {
+          showSlide(currentIndex - 1);
+        }
+
+        // Start auto slide
+        function startAutoSlide() {
+          autoSlideInterval = setInterval(nextSlide, autoSlideDelay);
+        }
+
+        // Reset auto slide timer
+        function resetAutoSlide() {
+          clearInterval(autoSlideInterval);
+          startAutoSlide();
+        }
+
+        // Event listeners
+        prevBtn.addEventListener("click", prevSlide);
+        nextBtn.addEventListener("click", nextSlide);
+
+        // Touch events for mobile swipe
+        let touchStartX = 0;
+        let touchEndX = 0;
+
+        slider.addEventListener("touchstart", (e) => {
+          touchStartX = e.changedTouches[0].screenX;
+          // Pause auto slide while touching
+          clearInterval(autoSlideInterval);
+        });
+
+        slider.addEventListener("touchend", (e) => {
+          touchEndX = e.changedTouches[0].screenX;
+          handleSwipe();
+          // Restart auto slide after touch
+          startAutoSlide();
+        });
+
+        function handleSwipe() {
+          const swipeThreshold = 50;
+          if (touchEndX < touchStartX - swipeThreshold) {
+            nextSlide(); // Swipe left -> next slide
+          } else if (touchEndX > touchStartX + swipeThreshold) {
+            prevSlide(); // Swipe right -> prev slide
+          }
+        }
+
+        // Pause auto slide on hover
+        slider.addEventListener("mouseenter", () => {
+          clearInterval(autoSlideInterval);
+        });
+
+        slider.addEventListener("mouseleave", () => {
+          startAutoSlide();
+        });
+
+        // Keyboard navigation
+        document.addEventListener("keydown", (e) => {
+          if (e.key === "ArrowLeft") {
+            prevSlide();
+          } else if (e.key === "ArrowRight") {
+            nextSlide();
+          }
+        });
+
+        // Initialize auto slide
+        startAutoSlide();
+      });
+    </script>
+  
+  <div class="whatsapp-box">
+  <a href="https://wa.me/ +20 12 12138414" target="_blank" class="whatsapp-btn">
+    <i class="fa fa-whatsapp"></i>
+  </a>
+
+  <div class="assist-bubble">
+    ممكن أساعد حضرتك؟
+  </div>
+</div>
+
+
+
+  </body>
+</html>
