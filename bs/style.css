@@ -697,7 +697,6 @@ footer .contact-section h2 {
   margin: 0;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
   gap: 15px;
 }
 
