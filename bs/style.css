@@ -746,3 +746,13 @@ footer .contact-section h2 {
   transform: scale(1.03);
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
 }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  overflow-x: hidden;
+  width: 100%;
+}
