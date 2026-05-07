@@ -395,10 +395,11 @@ footer .contact-section h2 {
   transform: translateX(-50%);
   text-align: center;
   color: #fff5f5;
-  background: rgba(0, 0, 0, 0.35);
+  background: rgba(0, 0, 0, 0.55);
   padding: 18px 28px;
   border-radius: 10px;
   max-width: 85%;
+ backdrop-filter: blur(3px);
 }
 .slide-title {
   font-size: 1.2rem;
@@ -757,4 +758,8 @@ footer .contact-section h2 {
 html, body{
   overflow-x: hidden;
   width: 100%;
+}
+.heading-title{
+  font-size: 2.3rem;
+  font-weight: 800;
 }
