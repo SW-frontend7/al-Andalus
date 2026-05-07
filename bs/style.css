@@ -274,10 +274,9 @@ footer .contact-section h2 {
   justify-content: center;
   align-items: center;
   gap: 25px;
-  flex-wrap: wrap;
   max-width: 900px; /* عرض على قد المحتوى */
   margin: auto; /* يجي في النص */
-  flex-direction: column;
+ 
 }
 
 .contact-items .item {
